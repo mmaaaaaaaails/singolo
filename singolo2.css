@@ -176,7 +176,6 @@
     justify-content: center;
     margin-right: 8px;
     transition: background-color .2s linear;
-    fill: #767e9e;
 }
 .social__icon:hover {
     background-color: #2d303a;
@@ -184,7 +183,26 @@
 .social__icon:last-child{
     margin-right: 0;
 }
-.social__icon:hover{
-    fill:#f2f2f2;
+
+.icon{
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    background-size: cover;
+}
+.icon:hover{
+    filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(525deg) brightness(100%) contrast(100%);
 }
 
+.icon__facebook{
+    background-image: url(./assets/images/social/facebook.svg);
+}
+.icon__google-plus{
+    background-image: url(./assets/images/social/google-plus.svg);
+}
+.icon__twitter{
+    background-image: url(./assets/images/social/twitter.svg);
+}
+.icon__linkedin{
+    background-image: url(./assets/images/social/linkedin.svg);
+}
