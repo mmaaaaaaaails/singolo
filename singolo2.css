@@ -38,8 +38,10 @@
         url('./assets/fonts/lato-v16-latin-900.woff') format('woff'),
         url('./assets/fonts/lato-v16-latin-900.ttf') format('truetype');
 }
+
 *{
     margin: 0;
+    padding:0;
     font-family: 'Lato', sans-serif;
 }
 
@@ -47,12 +49,15 @@
     max-width: 1020px;
     margin:0 auto;
 }
+
+/* section portfolio */
+
 .portfolio{
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
     padding-bottom: 65px;
 }
-.container{
+.inner{
     width: 940px;
     margin: 0 auto;
 }
@@ -110,13 +115,16 @@
 .portfolio__item{
     margin-bottom: 17px;
 }
-.About-us{
+
+/* section About-us */
+
+.about-us{
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
     padding-bottom: 67px;
 }
 
-.About-us__title{
+.about-us__title{
     font-size: 30px;
     font-weight: 900;
     color: #666d89;
@@ -124,7 +132,7 @@
     padding-bottom: 18px;
 }
 
-.About-us__text{
+.about-us__text{
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
@@ -133,15 +141,15 @@
     margin-bottom: 45px;
 }
 
-.About-us__column{
+.about-us__column{
     display: flex;
     justify-content: space-between;
 }
-.About-us__person{
+.about-us__person{
     max-width: 300px;
     overflow: hidden;
 }
-.About-us__name{
+.about-us__name{
     font-size: 18px;
     font-weight: 900;
     color: #666d89;
@@ -154,7 +162,7 @@
     text-overflow: ellipsis;
     width: 300px;
 }
-.About-us__description{
+.about-us__description{
     font-size: 12px;
     font-weight: 400;
     color: #767e9e;
@@ -165,6 +173,13 @@
 
 .social{
     display: flex;
+    list-style: none;
+}
+.social__right{
+    margin-right: 8px;
+}
+.social__right:last-child{
+    margin-right: 0;
 }
 .social__icon{
     width: 30px;
@@ -174,14 +189,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
     transition: background-color .2s linear;
 }
 .social__icon:hover {
-    background-color: #2d303a;
-}
-.social__icon:last-child{
-    margin-right: 0;
+    background-color: #f0d8d9;
 }
 
 .icon{
