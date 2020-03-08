@@ -97,7 +97,7 @@
     color:#6e7593;;
     border-color: #c5c5c5;
 }
-.portfolio__topic__btn:first-child{
+.portfolio__topic__btn--active{
     color: #dedede;
     border-color: #c5c5c5;
 }
