@@ -10,6 +10,9 @@
     <header class="header">
         <div class="wrapper">
             <div class="header__block">
+                <span class="hamburger" id="hamburger">
+                    <span class="hamburger__line"></span>
+                </span>
                 <div class="logo">
                     <a href="#" class="logo__text"><h1>Singolo<span class="logo__text-star">*</span></h1></a>
                 </div>
@@ -28,19 +31,19 @@
     <main>
         <section class="slider" id="home">
             <div class="slider__content">
-                <div class="slide slide-1 item active">
+                <div class="slide slide__one item active">
                     <div class="phones">
                         <div class="phone__vertikal">
-                            <img src="./assets/images/iPhone_Vertical.png" alt="iPhone_Vertical">
+                            <img src="./assets/images/iPhone_Vertical.png" class="phone__vertikal--size" alt="iPhone_Vertical">
                         </div>
                         <div class="phone__horizontal">
-                            <img src="./assets/images/iPhone_Horizontal.png" alt="iPhone_Horizontal">
+                            <img src="./assets/images/iPhone_Horizontal.png" class="phone__horizontal--size" alt="iPhone_Horizontal">
                         </div>
                     </div>
                 </div>
-                <div class="slide slide-2 item">
+                <div class="slide slide__two item">
                     <div class="phones">
-                        <img src="./assets/images/slide_2.png" alt="blue-slide">
+                        <img src="./assets/images/slide_2.png" class="slide__two--size" alt="blue-slide">
                     </div>
                 </div>
             </div>
@@ -142,7 +145,6 @@
                     <img src="./assets/images/portfolio/10.png" class="portfolio__image" alt="portfolio">
                     <img src="./assets/images/portfolio/11.png" class="portfolio__image" alt="portfolio">
                     <img src="./assets/images/portfolio/12.png" class="portfolio__image" alt="portfolio">
-                    <img src="./assets/images/portfolio/12.png" class="portfolio__image" alt="portfolio">
                 </div>
             </div>
         </section>
@@ -152,7 +154,7 @@
                 <p class="about-us__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <div class="about-us__column">
                     <div class="about-us__person">
-                        <img src="./assets/images/person/person1.png" alt="person"/>
+                        <img src="./assets/images/person/person1.png" class="about-us__person--photo" alt="person"/>
                         <h3 class="about-us__name">Adam Jensen</h3>
                         <p class="about-us__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem</p>
                         <ul class="social">
@@ -171,7 +173,7 @@
                         </ul>
                     </div>
                     <div class="about-us__person">
-                        <img src="./assets/images/person/person2.png" alt="person">
+                        <img src="./assets/images/person/person2.png" class="about-us__person--photo"  alt="person">
                         <h3 class="about-us__name">Desmond Miles</h3>
                         <p class="about-us__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                         <ul class="social">
@@ -190,7 +192,7 @@
                         </ul>
                     </div>
                     <div class="about-us__person">
-                        <img src="./assets/images/person/person3.png" alt="person">
+                        <img src="./assets/images/person/person3.png" class="about-us__person--photo"  alt="person">
                         <h3 class="about-us__name">Scolara Visari</h3>
                         <p class="about-us__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                         <ul class="social">
