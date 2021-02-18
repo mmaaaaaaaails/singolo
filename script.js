@@ -156,6 +156,7 @@ MESSAGE_CLOSE.addEventListener('click', () => {
 
 const HAMBURGER_MENU = document.querySelector('.hamburger');
 const HAMBURGER_NAV = document.querySelector('.nav__item');
+const ff = document.querySelector('.section');
 
 HAMBURGER_MENU.addEventListener('click', () => {
         HAMBURGER_MENU.classList.toggle('hamburger__rotate--active');
